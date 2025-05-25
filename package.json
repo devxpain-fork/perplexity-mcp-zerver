@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "MCP server using Puppeteer to interact with Perplexity.ai without an API key.",
   "main": "build/index.js",
+  "bin": {
+    "perplexity-mcp-server": "build/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
